@@ -42,7 +42,7 @@ int process(string target_word, string users_word)
         }
         cout << "Bulls = " << bulls_count << "   Cows = " << cows_count<<"\nEnter new guess: ";
         cin >> users_word;
-        while (users_word.length!=5)
+        while (users_word.length() != 5)
         {
             cout<<"\nWrong length! Try again\n";
             cin>>users_word;
