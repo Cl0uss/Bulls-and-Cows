@@ -1,5 +1,6 @@
 #include <iostream> 
 #include <string>
+#include <windows.h>
 using namespace std;
 int process(string target_word, string users_word)
 {
@@ -10,7 +11,7 @@ int process(string target_word, string users_word)
     if (target_word == users_word)
     {
         cout << "You guessed, CONGRATULATIONS!!!!";
-        return 0;
+        Sleep(20000);
     }
     else
     {
@@ -63,7 +64,7 @@ int main()
     {
         cout << "\nWrong quantity of letters\n\nWrite again\n\n";
         main();
-        return 0;
+
     }
     // начало свитчей
     switch (random_number_for_switch)
