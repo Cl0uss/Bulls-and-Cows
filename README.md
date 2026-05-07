@@ -1,12 +1,42 @@
-CLI game
-Game rules:
-You have to guess which word was suggested. If you get a correct letter in incorrect order - you got a cow. If you get correct letter in correct order - you get a bull.
-Example:
-  Your word:      hEllo
-  Suggested word: pEter
-  you have a bull
+# CLI Bulls and Cows Game
 
-  
-  Your word:      hEllO
-  Suggested word: OrdEr
-  you have 2 cows
+A simple terminal-based **Bulls and Cows** word guessing game.
+
+---
+
+## 📖 Game Rules
+
+You have to guess the hidden word.
+
+- ✅ **Bull** → correct letter in the correct position
+- 🐄 **Cow** → correct letter in the wrong position
+
+---
+
+## 🎮 Examples
+
+### Example 1 — Bull
+
+```text
+Your word:       hEllo
+Suggested word: pEter
+
+Result: 1 bull
+```
+
+The letter `E` is in the correct position.
+
+---
+
+### Example 2 — Cows
+
+```text
+Your word:       hEllO
+Suggested word: OrdEr
+
+Result: 2 cows
+```
+
+Two letters exist in both words but are placed in different positions.
+
+---
