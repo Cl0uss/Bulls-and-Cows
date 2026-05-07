@@ -8,7 +8,7 @@ A simple terminal-based **Bulls and Cows** word guessing game.
 
 You have to guess the hidden word.
 
-- ✅ **Bull** → correct letter in the correct position
+- 🐂 **Bull** → correct letter in the correct position
 - 🐄 **Cow** → correct letter in the wrong position
 
 ---
